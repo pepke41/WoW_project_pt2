@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "World of Warcraft web app organized by expansion",
   "scripts": {
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/pepke41/WoW_project/issues"
   },
-  "homepage": "https://github.com/pepke41/WoW_project#readme"
+  "homepage": "https://github.com/pepke41/WoW_project#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^2.3.2"
+  }
 }

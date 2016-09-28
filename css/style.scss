@@ -3,20 +3,22 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: gray; }
-
+  background-color: gray;
+}
 .nav > li {
-  float: left; }
-
+  float: left;
+}
 .nav > li a {
   display: block;
   color: gold;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .nav > li a:hover {
-  background-color: black; }
+  background-color: black;
+}
 
 .icon {
   display: block;
@@ -24,23 +26,27 @@
   width: 55px;
   height: 55px;
   padding: 20px;
-  float: left; }
+  float: left;
+}
 
 #hordeRaces {
   float: left;
-  width: 100%; }
-
+  width: 100%
+}
 #allianceRaces {
   float: left;
   clear: left;
-  width: 100%; }
+  width: 100%;
+}
 
 #originalRaces {
   margin-left: auto;
   margin-right: auto;
   height: auto;
   width: auto;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .classOnly {
-  margin: 0; }
+  margin: 0;
+}
