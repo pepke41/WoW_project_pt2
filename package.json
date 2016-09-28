@@ -1,0 +1,18 @@
+{
+  "name": "wow-project",
+  "version": "1.0.0",
+  "description": "World of Warcraft web app organized by expansion",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepke41/WoW_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pepke41/WoW_project/issues"
+  },
+  "homepage": "https://github.com/pepke41/WoW_project#readme"
+}
