@@ -46,3 +46,7 @@
   width: auto;
   overflow: hidden;
 }
+
+.classOnly {
+  margin: 0;
+}
