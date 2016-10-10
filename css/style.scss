@@ -1,3 +1,5 @@
+
+
 .nav {
   list-style-type: none;
   margin: 0;
@@ -45,6 +47,11 @@
   height: auto;
   width: auto;
   overflow: hidden;
+}
+
+#originalAzerothMap {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .classOnly {

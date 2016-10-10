@@ -42,5 +42,9 @@
   width: auto;
   overflow: hidden; }
 
+#originalAzerothMap {
+  width: 50%;
+  margin: 0 auto; }
+
 .classOnly {
   margin: 0; }
