@@ -1,25 +1,30 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Best Expansion</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
   </head>
+
   <body>
-    <ul class='nav'>
-      <li class='nav-item'><a href="index.html">World of Warcraft</a></li>
-      <li class='nav-item trigger'><a href="#">Expansions</a>
-        <ul class= dropdown-menu>
-          <li class='nav-item'><a href="burning_crusade.html">Burning Crusade</a></li>
-          <li class='nav-item'><a href="lich_king.html">Wrath of the Lich King</a></li>
-          <li class='nav-item'><a href="cataclysm.html">Cataclysm</a></li>
-          <li class='nav-item'><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
-          <li class='nav-item'><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
-          <li class='nav-item'><a href="legion.html">Legion</a></li>
-        </ul>
-      </li>
-      <li class='nav-item'><a href="vote.html">Pick Your Favorite</a></li>
-    </ul>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html">World of Warcraft</a></li>
+        <li class="nav-item trigger"><a href="#">Expansions</a>
+          <ul class= "dropdown-menu">
+            <li class="nav-item"><a href="burning_crusade.html">Burning Crusade</a></li>
+            <li class="nav-item"><a href="lich_king.html">Wrath of the Lich King</a></li>
+            <li class="nav-item"><a href="cataclysm.html">Cataclysm</a></li>
+            <li class="nav-item"><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
+            <li class="nav-item"><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
+            <li class="nav-item"><a href="legion.html">Legion</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="vote.html">Pick Your Favorite</a></li>
+      </ul>
+    </nav>
+
     <div id="form">
       <h1>Pick Your Favorite</h1>
       <form action ="" id="vote">
@@ -38,10 +43,12 @@
     <div id="recorded">
       <h2 id="expPicked"></h2>
     </div>
+
     <div class="hidden" id="notRecorded">
       <h2>Oops! Something went wrong</h2>
     </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/index.js"></script>
   </body>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="js/index.js"></script>
 </html>
