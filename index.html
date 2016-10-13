@@ -3,17 +3,22 @@
   <head>
     <title>The Expansion Mansion</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
   </head>
   <body>
-    <ul class=nav>
-      <li><a href="index.html">World of Warcraft</a></li>
-      <li><a href="burning_crusade.html">Burning Crusade</a></li>
-      <li><a href="lich_king.html">Wrath of the Lich King</a></li>
-      <li><a href="cataclysm.html">Cataclysm</a></li>
-      <li><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
-      <li><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
-      <li><a href="legion.html">Legion</a></li>
-      <li><a href="vote.html">Pick Your Favorite</a></li>
+    <ul class='nav'>
+      <li class='nav-item'><a href="index.html">World of Warcraft</a></li>
+      <li class='nav-item trigger'><a href="#">Expansions</a>
+        <ul class= dropdown-menu>
+          <li class='nav-item'><a href="burning_crusade.html">Burning Crusade</a></li>
+          <li class='nav-item'><a href="lich_king.html">Wrath of the Lich King</a></li>
+          <li class='nav-item'><a href="cataclysm.html">Cataclysm</a></li>
+          <li class='nav-item'><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
+          <li class='nav-item'><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
+          <li class='nav-item'><a href="legion.html">Legion</a></li>
+        </ul>
+      </li>
+      <li class='nav-item'><a href="vote.html">Pick Your Favorite</a></li>
     </ul>
     <h1>World of Warcraft</h1>
     <p>World of Warcraft is MMORPG that was created in 2004.
@@ -21,6 +26,12 @@
     available to a player in 2004. Each of the of the other tabs will
     focus on the following expansions. Also there is
     a page to vote and rank the WoW expansions. Enjoy!<p>
+    <div class="maps">
+      <h2>Azeroth</h2>
+      <img src="img/original_map.jpg" alt="original azeroth map">
+      <p><sup>While it will go through many changes through the expansions the Azeroth
+        of the first game was restricted to the Eastern Kingdom and Kalimdor</sup></p>
+    </div>
     <h2>Who and what could you play as in Vanilla?</h2>
     <p>The level cap in the original game was 60. Players could play as one
     of eight races, and choose one of nine classes. Not all classes are
@@ -65,12 +76,6 @@
     <p class="classOnly"><sup>*Alliance only</sup></p>
     <p class="classOnly"><sup>**Horde only</sup></p>
     </br>
-    <div id="originalAzerothMap">
-      <h2>Azeroth</h2>
-      <img src="img/original_map.jpg" alt="original azeroth map">
-      <p>While it will go through many changes through the expansions the Azeroth
-      of the first game was restricted to the Eastern Kingdom and Kalimdor</p>
-    </div>
     <div id="originalLore">
       <h2>Lore</h2>
       <h3>In the beginning...</h3>
@@ -113,7 +118,7 @@
     brave enough could choose to explore a new realm the Outlands</p>
     <h2>Raids</h2>
     <ul>
-      <li>Ruins of Ahn'Qiraj: During the final hours of the War of the Shifting
+      <li><u>Ruins of Ahn'Qiraj</u>: During the final hours of the War of the Shifting
         Sands, the combined forces of the night elves and the four dragonflights
         drove the battle to the very heart of the qiraji empire, to the fortress
         city of Ahn'Qiraj. Yet at the city gates, the armies of Kalimdor
@@ -121,7 +126,7 @@
         they had encountered before. Ultimately the silithid and their qiraji
         masters were not defeated, but merely imprisoned inside a magical
         barrier, and the war left the cursed city in ruins.</li>
-      <li>The Molten Core: The Molten Core lies at the very bottom of Blackrock
+      <li><u>The Molten Core</u>: The Molten Core lies at the very bottom of Blackrock
         Depths. It is the heart of Blackrock Mountain and the exact spot where,
         long ago in a desperate bid to turn the tide of the dwarven civil war,
         Sorcerer-thane Thaurissan summoned the elemental Firelord, Ragnaros,
@@ -129,14 +134,14 @@
         the blazing core, it is believed that his elemental minions command the
         Dark Iron dwarves, who are in the midst of creating armies out of living
         stone.</li>
-      <li>Blackwing Lair: Blackwing Lair can be found at the very height of
+      <li><u>Blackwing Lair:</u> Blackwing Lair can be found at the very height of
         Blackrock Spire, a towering pinnacle of ancient stone hewn to a dragon's
         specifications. In the dark recesses of the mountain's peak, Nefarian,
         the eldest son of Deathwing, conducts some of his most awful
         experimentation, controlling mighty beings like puppets and combining
         the eggs of different dragonflights with horrific results. Should he
         prove successful, even darker pursuits rest on the horizon.</li>
-      <li>Onyxia's Lair: It is said that Onyxia delights in corrupting the
+      <li><u>Onyxia's Lair:</u> It is said that Onyxia delights in corrupting the
         mortal races by meddling in their political affairs. To this end it is
         believed that she takes on various humanoid forms and uses her charm and
         power to influence delicate matters between the different races. Some
@@ -145,7 +150,7 @@
         concerns, Onyxia resides in a fiery cave below the Dragonmurk, a dismal
         swamp located within Dustwallow Marsh. There she is guarded by her kin,
         the remaining members of the insidious black dragonflight.</li>
-      <li>Temple of Ahn'Qiraj: At the heart of Ahn'Qiraj lies an ancient temple
+      <li><u>Temple of Ahn'Qiraj:</u> At the heart of Ahn'Qiraj lies an ancient temple
         complex. Built in the time before recorded history, it is both a
         monument to unspeakable gods and a massive breeding ground for the
         qiraji army. Since the War of the Shifting Sands ended a thousand years
@@ -156,5 +161,7 @@
     <h2>The Music</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zLbkTn9wnoQ" frameborder="0" allowfullscreen></iframe>
   </body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/index.js"></script>
 </html>
 

@@ -3,17 +3,22 @@
   <head>
     <title>Warlords of Draenor</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
   </head>
   <body>
-    <ul class=nav>
-      <li><a href="index.html">World of Warcraft</a></li>
-      <li><a href="burning_crusade.html">Burning Crusade</a></li>
-      <li><a href="lich_king.html">Wrath of the Lich King</a></li>
-      <li><a href="cataclysm.html">Cataclysm</a></li>
-      <li><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
-      <li><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
-      <li><a href="legion.html">Legion</a></li>
-      <li><a href="vote.html">Pick Your Favorite</a></li>
+    <ul class='nav'>
+      <li class='nav-item'><a href="index.html">World of Warcraft</a></li>
+      <li class='nav-item trigger'><a href="#">Expansions</a>
+        <ul class= dropdown-menu>
+          <li class='nav-item'><a href="burning_crusade.html">Burning Crusade</a></li>
+          <li class='nav-item'><a href="lich_king.html">Wrath of the Lich King</a></li>
+          <li class='nav-item'><a href="cataclysm.html">Cataclysm</a></li>
+          <li class='nav-item'><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
+          <li class='nav-item'><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
+          <li class='nav-item'><a href="legion.html">Legion</a></li>
+        </ul>
+      </li>
+      <li class='nav-item'><a href="vote.html">Pick Your Favorite</a></li>
     </ul>
     <h1>Warlords of Draenor</h1>
     <p>Garrosh Hellscream former Warcheif of the Horde now hated by both the
@@ -26,8 +31,10 @@
     crafting skills, mining cavern, herbalism garden, shipyard and more. Players
     can also gain followers while questing and send them on Garrison missions to
     retrieve gold, gear, and more.</p>
-    <h2>Draenor</h2>
-    <img src="img/draenor_map.jpg" alt="Draenor map">
+    <div class="maps">
+      <h2>Draenor</h2>
+      <img src="img/draenor_map.jpg" alt="Draenor map">
+    </div>
     <h2>Lore</h2>
     <h3>Garrosh's Escape</h3>
     <p>At the end of Mists of Pandaria Garrosh Hellscream was imprisoned by both
@@ -52,7 +59,7 @@
     and for all and his threat to Azeroth is no more.</p>
     <h2>Raids</h2>
     <ul>
-      <li>Highmaul: Draenor is a savage land, birthplace of the orcish race yet
+      <li><u>Highmaul</u>: Draenor is a savage land, birthplace of the orcish race yet
         named by draenei refugees hundreds of years ago. For generations, orcs,
         draenei, and the Gorian ogre imperium all coexisted, though not without
         strife and territorial skirmishes. Ancient and primal forces of creation
@@ -60,14 +67,14 @@
         is the world on which Garrosh awoke after his escape. And now, thanks to
         the Iron Horde and the dark hand of Gul'dan, the fate of two worlds
         hangs in the balance.</li>
-      <li>Hellfire Citadel: When Garrosh encouraged Grommash to begin
+      <li><u>Hellfire Citadel</u>: When Garrosh encouraged Grommash to begin
         construction of this massive stronghold at the heart of Tanaan Jungle,
         to serve as a staging ground for the assault of Azeroth, he even
         suggested the name Hellfire, pulled from a different time and a
         different land. He dreamed of seeing mighty orcish iron towering over an
         unblighted landscape, so very different from the wasteland he had known
         in Outland. But even as times change, so too do they stay the same.</li>
-      <li>Blackrock Foundry: This foundry was the ancestral home of the
+      <li><u>Blackrock Foundry</u>: This foundry was the ancestral home of the
         Blackrock orcs, wherein master smiths smelted and worked the impossibly
         hard ore that is the clan's namesake. Now, massive giants captured and
         broken by the Thunderlord heat the great forges, flamebenders of the
@@ -79,4 +86,6 @@
     <h2>Music</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Vy_v1fsYLkk" frameborder="0" allowfullscreen></iframe>
   </body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/index.js"></script>
 </html>

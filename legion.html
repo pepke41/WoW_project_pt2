@@ -3,24 +3,33 @@
   <head>
     <title>Legion</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
   </head>
   <body>
-    <ul class=nav>
-      <li><a href="index.html">World of Warcraft</a></li>
-      <li><a href="burning_crusade.html">Burning Crusade</a></li>
-      <li><a href="lich_king.html">Wrath of the Lich King</a></li>
-      <li><a href="cataclysm.html">Cataclysm</a></li>
-      <li><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
-      <li><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
-      <li><a href="legion.html">Legion</a></li>
-      <li><a href="vote.html">Pick Your Favorite</a></li>
+    <ul class='nav'>
+      <li class='nav-item'><a href="index.html">World of Warcraft</a></li>
+      <li class='nav-item trigger'><a href="#">Expansions</a>
+        <ul class= dropdown-menu>
+          <li class='nav-item'><a href="burning_crusade.html">Burning Crusade</a></li>
+          <li class='nav-item'><a href="lich_king.html">Wrath of the Lich King</a></li>
+          <li class='nav-item'><a href="cataclysm.html">Cataclysm</a></li>
+          <li class='nav-item'><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
+          <li class='nav-item'><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
+          <li class='nav-item'><a href="legion.html">Legion</a></li>
+        </ul>
+      </li>
+      <li class='nav-item'><a href="vote.html">Pick Your Favorite</a></li>
     </ul>
     <h1>Legion</h1>
     <p>Gul'dan and the Burning Legion are back to conquer Azeroth. Players will
     quest in the Broken Isles and 6 new zones to stop them. Players can advance
     to level 110, play as a new class, get an awesome artifact weapon, and
     explore their class halls.</p>
-    <h3>Classes</h3>
+    <div class="maps">
+      <h2>The Burning Isles</h2>
+      <img src="img/broken_map.jpg" alt="Map of the Broken Isles">
+    </div>
+    <h2>New Classes</h2>
     <p>There is one new class in the legion expansion, the Demon Hunter. Demon
     Hunters are followers of Illidan who drank demon blood to become strong like
     the demons and defeat them. Illidan and his Illidari were imprisoned by many
@@ -28,8 +37,6 @@
     decided that they needed Illidan's help. Demon Hunters start at level 98 and
     can be either Night Elves or Blood Elves. Demon Hunters can be either
     Vengeance (Tanks) or Havoc (DPS).
-    <h2>The Burning Isles</h2>
-    <img src="img/broken_map.jpg" alt="Map of the Broken Isles">
     <h2>Lore</h2>
     <h3>The Legion is Coming</h3>
     <p>At the end of Warlords of Draenor the Alliance and Horde attempted to
@@ -58,7 +65,7 @@
     moves to Broken Isles to help the people of Azeroth in anyway they can.</p>
     <h2>Raids</h2>
     <ul>
-      <li>The Emerald Nightmare: This area once stood as the cradle of elven
+      <li><u>the Emerald Nightmare</u>: This area once stood as the cradle of elven
         civilization, centered around the ancient elven capital of Suramar,
         until the Sundering tore the land apart. While the power of the
         Nightwell preserved the city of Suramar, the surrounding lands bear the
@@ -66,7 +73,7 @@
         of Sargeras, and from the tauren camps in the peaks of Highmountain, to
         the druidic groves of Val'sharah, to vrykul settlements that dot
         Stormheim, the Isles live in the shadow of the Legion.</li>
-      <li>The Nighthold: The largest structure in the Broken Isles, and among
+      <li><u>The Nighthold</u>: The largest structure in the Broken Isles, and among
         the grandest in all of Azeroth, the Nighthold stands as a testament to
         the achievements of the nightborne civilization. Centered around the
         Nightwell, the fount of arcane power that has sustained Suramar for
@@ -78,4 +85,6 @@
     <h2>Music</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/SZKPa3zpwWk" frameborder="0" allowfullscreen></iframe>
   </body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/index.js"></script>
 </html>

@@ -1,9 +1,18 @@
+html {
+  background-color: #101058;
+  color: white;
+  font-family: 'Taviraj', serif; }
+
+h1, h2, h3, h4, h5 {
+  color: gold; }
+
 .nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: gray; }
+  background-color: #663300;
+  display: flex; }
 
 .nav > li {
   float: left; }
@@ -16,13 +25,24 @@
   text-decoration: none; }
 
 .nav > li a:hover {
-  background-color: black; }
+  background-color: #994d00; }
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #331a00;
+  padding: 0; }
+  .dropdown-menu.visible {
+    display: flex; }
 
 .icon {
   display: block;
   margin: auto;
-  width: 55px;
-  height: 55px;
+  width: 70px;
+  height: 70px;
   padding: 20px;
   float: left; }
 
@@ -42,9 +62,19 @@
   width: auto;
   overflow: hidden; }
 
-#originalAzerothMap {
+.maps {
   width: 50%;
   margin: 0 auto; }
 
 .classOnly {
   margin: 0; }
+
+#form {
+  text-align: center; }
+
+.hidden {
+  display: none; }
+
+iframe {
+  width: 20%;
+  height: 20%; }

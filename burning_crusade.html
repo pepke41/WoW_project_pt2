@@ -3,34 +3,41 @@
   <head>
     <title>The Burning Crusade</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
   </head>
   <body>
-    <ul class=nav>
-      <li><a href="index.html">World of Warcraft</a></li>
-      <li><a href="burning_crusade.html">Burning Crusade</a></li>
-      <li><a href="lich_king.html">Wrath of the Lich King</a></li>
-      <li><a href="cataclysm.html">Cataclysm</a></li>
-      <li><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
-      <li><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
-      <li><a href="legion.html">Legion</a></li>
-      <li><a href="vote.html">Pick Your Favorite</a></li>
+    <ul class='nav'>
+      <li class='nav-item'><a href="index.html">World of Warcraft</a></li>
+      <li class='nav-item trigger'><a href="#">Expansions</a>
+        <ul class= dropdown-menu>
+          <li class='nav-item'><a href="burning_crusade.html">Burning Crusade</a></li>
+          <li class='nav-item'><a href="lich_king.html">Wrath of the Lich King</a></li>
+          <li class='nav-item'><a href="cataclysm.html">Cataclysm</a></li>
+          <li class='nav-item'><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
+          <li class='nav-item'><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
+          <li class='nav-item'><a href="legion.html">Legion</a></li>
+        </ul>
+      </li>
+      <li class='nav-item'><a href="vote.html">Pick Your Favorite</a></li>
     </ul>
     <h1>Burning Crusade</h1>
     <p>The Dark Portal is opened exposing level 60 players to a new region, The
     Outlands. The Outlands consists of 7 regions (Hellfire Pennisula,
     Zangarmarsh, Nagrand, Terokkar Forest, Shadowmoon Valley, Blade's Edge
     Mountain, and Netherstorm). Players can advance to level 70.</p>
-    <h3>New Races</h3>
+    <div class="maps">
+      <h2>The Outlands</h2>
+      <img src="img/map_of_outland.jpg" alt="outlands-map">
+    </div>
+    <h2>New Races</h2>
     <ul>
       <li>Blood Elves (Horde)</li>
       <li>Draenei (Alliance)</li>
     </ul>
-    <h3>Classes</h3>
+    <h2>Classes</h2>
     <p>In this expansion there are no new classes, however Blood
     Elves can now play the paladin class (originally Alliance only) and
     Draenei can play the Shaman class</p>
-    <h2>The Outlands</h2>
-    <img src="img/map_of_outland.jpg" alt="outlands-map">
     <h2>Lore</h2>
     <h3>The Dark Portal</h3>
     <p>At the end of the original game the Dark Portal was opened by Lord
@@ -62,24 +69,24 @@
     when the others escaped to Azeroth).</p>
     <h2>Raids</h2>
     <ul>
-      <li>Karazhan: Medivh, the Last Guardian, made his home in Deadwind Pass,
+      <li><u>Karazhan</u>: Medivh, the Last Guardian, made his home in Deadwind Pass,
         in the bright tower of Karazhan. Though he was the greatest wizard of
         his day (and humanity's intended custodian) Medivh was secretly
         possessed by the dark spirit of Sargeras, the Destroyer of Worlds. Through
         Medivh, Sargeras opened the Dark Portal and allowed the orcs to wage war
         upon the kingdoms of Azeroth.</li>
-      <li>Gruul's Lair: When the infamous Dragon Aspect, Deathwing, discovered
+      <li><u>Gruul's Lair:</u> When the infamous Dragon Aspect, Deathwing, discovered
         the Dark Portal and Draenor, he felt sure that few of Draenor's denizens
         would dare challenge the black dragonflight, so he scattered clutches of
         his eggs throughout the world.</li>
-      <li>Magtheridon's Lair: After the Legion came to Outland, Magtheridon
+      <li><u>Magtheridon's Lair:</u> After the Legion came to Outland, Magtheridon
         controlled all but small pockets of Outland. Even so, he was taken
         largely by surprise when Illidan and his allies conquered the Black
         Temple. Many believed that Magtheridon had been slain in the attack,
         but, when Illidan discovered that Magtheridon's blood had a
         transformative, corrupting effect on orcs, the beaten pit lord was
         dragged to Hellfire Citadel.</li>
-      <li>Serpentshrine Cavern: These are the words of Lord Illidan Stormrage to
+      <li><u>Serpentshrine Cavern:</u> These are the words of Lord Illidan Stormrage to
         his most trusted lieutenant, Lady Vashj. Shortly after the Third War,
         when Illidan requested the aid of the naga, a group of naga led by Lady
         Vashj answered his call. Ever since, Vashj has displayed a fierce
@@ -89,13 +96,13 @@
         cold stone walls of Black Temple, Vashj maintains a close eye on her
         minions and personally oversees the draining of Zangarmarsh. Whether her
         loyalties belong to Illidan alone, however, remains to be seen.</li>
-      <li>The Eye (Tempest Keep): The mighty Tempest Keep was created by the
+      <li><u>The Eye (Tempest Keep):</u> The mighty Tempest Keep was created by the
         enigmatic naaru: sentient beings of pure energy and the sworn enemies of
         the Burning Legion. In addition to serving as a base of operations for
         the naaru, the structure itself possesses the technology to teleport
         through alternate dimensions, traveling from one location to another in
         the blink of an eye.</li>
-      <li>The Battle of Mount Hyjal: Deep within the Caverns of Time, the
+      <li><u>The Battle of Mount Hyjal</u>: Deep within the Caverns of Time, the
         brooding dragon Nozdormu has awakened. Since the world was young, the
         bronze dragonflight has safeguarded the winding labyrinth, monitoring
         the shifting timeways to ensure that the delicate balance of time is
@@ -114,4 +121,6 @@
     <h2>Music</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MVmk7VthBQo" frameborder="0" allowfullscreen></iframe>
   </body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/index.js"></script>
 </html>

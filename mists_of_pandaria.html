@@ -3,17 +3,22 @@
   <head>
     <title>Mists of Pandaria</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
   </head>
   <body>
-    <ul class=nav>
-      <li><a href="index.html">World of Warcraft</a></li>
-      <li><a href="burning_crusade.html">Burning Crusade</a></li>
-      <li><a href="lich_king.html">Wrath of the Lich King</a></li>
-      <li><a href="cataclysm.html">Cataclysm</a></li>
-      <li><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
-      <li><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
-      <li><a href="legion.html">Legion</a></li>
-      <li><a href="vote.html">Pick Your Favorite</a></li>
+    <ul class='nav'>
+      <li class='nav-item'><a href="index.html">World of Warcraft</a></li>
+      <li class='nav-item trigger'><a href="#">Expansions</a>
+        <ul class= dropdown-menu>
+          <li class='nav-item'><a href="burning_crusade.html">Burning Crusade</a></li>
+          <li class='nav-item'><a href="lich_king.html">Wrath of the Lich King</a></li>
+          <li class='nav-item'><a href="cataclysm.html">Cataclysm</a></li>
+          <li class='nav-item'><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
+          <li class='nav-item'><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
+          <li class='nav-item'><a href="legion.html">Legion</a></li>
+        </ul>
+      </li>
+      <li class='nav-item'><a href="vote.html">Pick Your Favorite</a></li>
     </ul>
     <h1>Mists of Pandaria</h1>
     <p>After the Shattering and the defeat of Deathwing the Horde and Alliance
@@ -21,6 +26,10 @@
     uncharted land of Pandaria. Pandaria is home to the Pandaren. In this
     expansion players will be able to level to 90, quest in Pandaria, and play
     as one new class, and play as one new races</p>
+    <div class="maps">
+      <h2>Pandaria</h2>
+      <img src="img/pandari_map.jpg" alt="Pandaria map">
+    </div>
     <h2>New Race</h2>
     <p>Players can now play as one of the natives of Pandaria. Pandaren are
     different than the other races as they can be both Horde and Alliance. Once
@@ -31,8 +40,6 @@
     <p>Players can now play as the monk class. The monk class can be played by
     most races (goblins and worgen cannot be monks). The monk class has three
     specializations Brewmaster (tank), Mistweaver (Heal), Windwalker (dps).</p>
-    <h2>Pandaria</h2>
-    <img src="img/pandari_map.jpg" alt="Pandaria map">
     <h2>Lore</h2>
     <h3>A Strange Land</h3>
     <p>At the beginning the Horde and Alliance had no idea what awaited them on
@@ -65,30 +72,30 @@
     escape to the past, to Draenor, where the Orcs are originally from</p>
     <h2>Raids</h2>
     <ul>
-      <li>Heart of Fear: The Sha of Fear has corrupted the grand empress of the
+      <li><u>Heart of Fear</u>: The Sha of Fear has corrupted the grand empress of the
         mantid. Her increasingly erratic and paranoid commands have driven the
         Klaxxi--the keepers of mantid culture--to take aggressive action.
         Because they are few in number, the Klaxxi are reluctantly willing to
         accept outside help in destroying the empress and purging their race of
         the sha's negative influence.</li>
-      <li>Mogu'shan Vaults: The mogu, proud of their supremacy, kept lengthy
+      <li><u>Mogu'shan Vaults</u>: The mogu, proud of their supremacy, kept lengthy
         records of their accomplishments within a great complex of vaults. The
         construction of these vast chambers predate any pandaren written
         records, shrouding their depths in mystery. Rumors once circulated of a
         mighty army locked within; for this reason, the vaults were the first
         target of the ancient pandaren rebellion, and they have been sealed ever
         since the mogu empire was overthrown.</li>
-      <li>Siege of Orgrimmar: The tensions stoked by Garrosh Hellscream's
+      <li><u>Siege of Orgrimmar</u>: The tensions stoked by Garrosh Hellscream's
         arrogance have reached a boiling point with the destruction unleashed
         upon the Vale of Eternal Blossoms. Leaders of the Alliance and Horde lay
         siege to Hellscream's capital in order to topple the ruthless Warchief
         once and for all!</li>
-      <li>Terrace of Endless Spring: Hidden high in the mountains, the Terrace
+      <li><u>Terrace of Endless Spring</u>: Hidden high in the mountains, the Terrace
         of Endless Spring is the sacred center of the Vale of Eternal Blossoms.
         Its peaceful fountains are said to have the power to heal and
         rejuvenate, but when the Sha of Fear attacked, many of the complex's
         guardians turned on each other in fits of terror.</li>
-      <li>Throne of Thunder: When Pandaria separated from Kalimdor many thousands
+      <li><u>Throne of Thunder</u>: When Pandaria separated from Kalimdor many thousands
         of years ago, a veil of mist kept outsiders from discovering the
         newly-formed continent. The mists also hid a reminder of an ancient
         evil: Lei Shen's Throne of Thunder. During his rule, this fortress was
@@ -100,4 +107,6 @@
     <h2>Music</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/WZDmbz6ZXHI" frameborder="0" allowfullscreen></iframe>
   </body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/index.js"></script>
 </html>
