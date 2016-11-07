@@ -1,3 +1,7 @@
+<?php
+include 'navbar.php';
+  $navBar = new navbar();
+?>
 <!doctype html>
 <html>
   <head>
@@ -8,23 +12,7 @@
   </head>
 
   <body>
-    <nav>
-      <ul class="nav">
-        <li class="nav-item"><a href="index.html">World of Warcraft</a></li>
-        <li class="nav-item trigger"><a href="#">Expansions</a>
-          <ul class= "dropdown-menu">
-            <li class="nav-item"><a href="burning_crusade.html">Burning Crusade</a></li>
-            <li class="nav-item"><a href="lich_king.html">Wrath of the Lich King</a></li>
-            <li class="nav-item"><a href="cataclysm.html">Cataclysm</a></li>
-            <li class="nav-item"><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
-            <li class="nav-item"><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
-            <li class="nav-item"><a href="legion.html">Legion</a></li>
-          </ul>
-        </li>
-        <li class="nav-item"><a href="vote.html">Pick Your Favorite</a></li>
-      </ul>
-    </nav>
-
+    <?php echo $navBar; ?>
     <div id="form">
       <h1>Pick Your Favorite</h1>
       <form action ="" id="vote">
@@ -34,6 +22,7 @@
         Crusade</input><br>
         <input type="radio" name="expansion" value="Wrath of the Lich King">Wrath of the Litch King</input><br>
         <input type="radio" name="expansion" value="Cataclysm">Cataclysm</input><br>
+        <input type="radio" name="expansion" value="Mists of Pandaria">Pandaria</input></br>
         <input type="radio" name="expansion" value="Warlords of Draenor">Warlords of Draenor</input><br>
         <input type="radio" name="expansion" value="Legion">Legion</input></br>
         <input type="submit" value="Vote!"</input>

@@ -1,3 +1,7 @@
+<?php
+  include 'navbar.php';
+  $navBar = new navbar();
+?>
 <!doctype html>
 <html>
   <head>
@@ -8,22 +12,7 @@
   </head>
 
   <body>
-    <nav>
-      <ul class="nav">
-        <li class="nav-item"><a href="index.html">World of Warcraft</a></li>
-        <li class="nav-item trigger"><a href="#">Expansions</a>
-          <ul class= "dropdown-menu">
-            <li class="nav-item"><a href="burning_crusade.html">Burning Crusade</a></li>
-            <li class="nav-item"><a href="lich_king.html">Wrath of the Lich King</a></li>
-            <li class="nav-item"><a href="cataclysm.html">Cataclysm</a></li>
-            <li class="nav-item"><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
-            <li class="nav-item"><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
-            <li class="nav-item"><a href="legion.html">Legion</a></li>
-          </ul>
-        </li>
-        <li class="nav-item"><a href="vote.html">Pick Your Favorite</a></li>
-      </ul>
-    </nav>
+  <?php echo $navBar; ?>
 
     <h1>World of Warcraft</h1>
     <p>World of Warcraft is MMORPG that was created in 2004.
@@ -49,7 +38,7 @@
     <h3>Races</h3>
     <div id="originalRaces">
       <div id="hordeRaces">
-        <img src="/img/horde.png" alt="Horde icon" class="icon">
+        <img src="img/horde.png" alt="Horde icon" class="icon">
         <ul>
           <li>Orc</li>
           <li>Tauren</li>
@@ -59,7 +48,7 @@
       </div>
 
       <div id="allianceRaces">
-        <img src="/img/alliance.png" alt="Alliance icon" class="icon">
+        <img src="img/alliance.png" alt="Alliance icon" class="icon">
         <ul>
           <li>Human</li>
           <li>Night Elf</li>

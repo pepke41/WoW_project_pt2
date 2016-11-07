@@ -1,3 +1,7 @@
+<?php
+include 'navbar.php';
+  $navBar = new navbar();
+?>
 <!doctype html>
 <html>
   <head>
@@ -8,23 +12,7 @@
   </head>
 
   <body>
-    <nav>
-      <ul class="nav">
-        <li class="nav-item"><a href="index.html">World of Warcraft</a></li>
-        <li class="nav-item trigger"><a href="#">Expansions</a>
-          <ul class= "dropdown-menu">
-            <li class="nav-item"><a href="burning_crusade.html">Burning Crusade</a></li>
-            <li class="nav-item"><a href="lich_king.html">Wrath of the Lich King</a></li>
-            <li class="nav-item"><a href="cataclysm.html">Cataclysm</a></li>
-            <li class="nav-item"><a href="mists_of_pandaria.html">Mists of Pandaria</a></li>
-            <li class="nav-item"><a href="warlords_of_draenor.html">Warlords of Draenor</a></li>
-            <li class="nav-item"><a href="legion.html">Legion</a></li>
-          </ul>
-        </li>
-        <li class="nav-item"><a href="vote.html">Pick Your Favorite</a></li>
-      </ul>
-    </nav>
-
+    <?php echo $navBar; ?>
     <h1>Warlords of Draenor</h1>
     <p>Garrosh Hellscream former Warcheif of the Horde now hated by both the
     Horde and Alliance has escaped back in time to Draenor the homeworld of the
