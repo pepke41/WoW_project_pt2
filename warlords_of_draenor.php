@@ -20,7 +20,7 @@ include 'navbar.php';
     both the Horde and Alliance to get stop Garrosh and restore order to
     Draenor. Players can now advance from level 90 to 100. There are no new
     races or classes this expansion, but a new feature is added. Players will
-    now have a Garrison. This will be there own fort in Draenor containing
+    now have a Garrison. This will be their own fort in Draenor containing
     crafting skills, mining cavern, herbalism garden, shipyard and more. Players
     can also gain followers while questing and send them on Garrison missions to
     retrieve gold, gear, and more.</p>

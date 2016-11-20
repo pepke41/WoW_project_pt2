@@ -15,6 +15,7 @@ class navBar {
               </ul>
             </li>
             <li class="nav-item"><a href="vote.php">Pick Your Favorite</a></li>
+            <li class="nav-item"><a href="guest_book.php">Guest Book</a></li>
           </ul>
         </nav>';
     }
