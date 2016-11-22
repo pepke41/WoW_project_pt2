@@ -1,12 +1,41 @@
-$base-color: #663300;
+$base-color: #70B77E;
 
 html {
-  background-color: #101058;
-  color: white;
+  background-color: #C1C1C1;
+  color: #0A0908;
   font-family: 'Taviraj', serif;
 }
+
+p {
+  font-size: 18px;
+}
+
+.full-page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5 {
-  color: gold;
+  color: #CE1483;
+}
+
+h4 {
+  margin: 0;
+}
+
+.inputVal {
+  width: 200px;
+}
+
+#signIn {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#racesAndClasses {
+  display: flex;
 }
 
 .nav {
@@ -22,7 +51,7 @@ h1, h2, h3, h4, h5 {
 
     a {
       display: block;
-      color: gold;
+      color: #0A2463;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -68,11 +97,13 @@ h1, h2, h3, h4, h5 {
 }
 
 #originalRaces {
-  margin-left: auto;
-  margin-right: auto;
   height: auto;
-  width: auto;
   overflow: hidden;
+  flex-grow: 1;
+}
+
+#originalClasses {
+  flex-grow: 1;
 }
 
 .maps {
@@ -84,15 +115,27 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
+body {
+  margin: auto;
+}
+
 #form {
-  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption {
+  display: inline-block;
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 iframe {
-  width: 20%;
+  width: 100%;
   height: 20%;
+  margin: 0 auto;
 }

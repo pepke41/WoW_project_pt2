@@ -4,7 +4,8 @@
   "description": "World of Warcraft web app organized by expansion",
   "scripts": {
     "start": "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp sass"
   },
   "repository": {
     "type": "git",

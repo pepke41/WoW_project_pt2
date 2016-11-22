@@ -28,7 +28,7 @@ include 'navbar.php';
     {
       die('Could not enter data: ' . mysql_error());
     }
-    echo "Thanks for Coming!\n";
+    echo "Thank you! Your response has been recorded!\n";
     mysql_close($conn);
     ?>
   </body>
